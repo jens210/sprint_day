@@ -42,7 +42,7 @@ a#banner_botton {
   background-color: #009b0d;
   border-radius: 3px;
   color:#ffffff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100;
   float:left;
   clear: both;
@@ -51,7 +51,7 @@ a#banner_botton {
 }
 
 span#banner_botton_text {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 100;
   float:left;
   clear: both;
@@ -68,11 +68,11 @@ span#banner_botton_text {
 .topnav a {
     float: left;
     display: block;
-    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    color: #fff;
 }
 
 /* Change the color of links on hover */
@@ -89,7 +89,6 @@ span#banner_botton_text {
 section#left {
   float:left;
   width:60%;
-
 }
 
 section article {
@@ -116,6 +115,7 @@ section#right {
   background-color: black;
   height: 725px;
   background-image: url("../images/kirk_picard.png");
+  background-repeat: no-repeat;
 }
 iframe {
   min-width: 100%;
@@ -131,55 +131,61 @@ iframe {
 
   * {
     font-family: 'Exo', sans-serif;
-    margin:;
-    padding:;
-    color:;
+    margin:0;
+    padding:0;
+    color: #fff;
+
   }
   p {
-
+    color: #fff;
   }
   body {
-
+    background-color: #000;
   }
   header{
-    height:470p;
+    height:470px;
+  }
+  nav {
+    position: fixed;
+    width: 100%;
   }
 
   .topnav a:not(:first-child) {
-    displa: none;
+    display: none;
   }
     .topnav a.icon {
+    display: block;
     float: right;
-    display: blok;
   }
     .topnav.responsive {
-    position: relativ;
+    position: fixed;
   }
     .topnav.responsive a.icon {
-    position: ;
     right: 0;
     top: 0;
+    position: fixed;
   }
+
   .topnav.responsive a {
-    float: no;
-    display; block;
-    text-align: ;
+    float: none;
+    display: block;
+    text-align: left;
   }
 
   #controller {
-    width:;
-    margin:center;
-    height:;
-    padding:170px 0 0 0.
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 225px 0 0 0;
   }
 
   .fa.fa-play-circle {
     color:#ffffff;
-    font-size: 56x;
-    float:left;
+    font-size: 56px;
+    float: left;
     clear: both;
     margin: 0 auto;
-    width:100%;
+    width: 100%;
     padding: 10px 0;
   }
 
@@ -193,45 +199,58 @@ iframe {
     float:left;
     clear: both;
     margin: 0 auto 7px;
-    width:170px;
+    width: 170px;
   }
 
-  #top_centering [
-    margin: 0 auto:
-    width:200px;
-  ]
+  #top_centering {
+    margin: 0 auto;
+    width: 200px;
+  }
 
   span#banner_botton_text {
-    font-size: ;
+    font-size: 14px;
     font-weight: 100;
-    float:left;
+    float: left;
     clear: both;
-    margin: center;
-    width: ;
+    margin: 0 auto;
+    width: 100%;
   }
 
   #controller h1 {
     font-size: 36px;
-    font-weight: 100;
-    width:100%;
-    margin: center;
+    font-weight: 100px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   section article {
-
+    background-color: #000;
+    padding: 30px 0 0 0;
   }
+
   section#left {
-
+    width: 90%;
+    float: none;
+    margin: 0 auto;
   }
+
   section#right {
-
+    float:none;
+    width: 100%;
+    background-color: black;
+    height: 725px;
+    background-image: url("../images/kirk_picard.png");
+    background-repeat: no-repeat;
     background-size: cover;
-
-
   }
+
   iframe {
-    min-width: ;
-    max-width: ;
+    min-height: 200px;
+    height: auto;
+    width: 100%;
+    min-width: 100%;
+    max-width: 400px;
     margin-top: 10px;
+    background-size: cover;
   }
 }
