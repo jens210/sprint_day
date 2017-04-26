@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function rwdMenuToggle() {
+  var toggleMenu = document.getElementById("myTopnav");
+  if (toggleMenu.className === "topnav") {
+      toggleMenu.className += " responsive";
+  } else {
+      toggleMenu.className = "topnav";
+  }
+}
+</script>
+</head>
+<body>
+<header>
+  <nav class="topnav" id="myTopnav">
+    <ul>
+      <a href="">Home</a>
+      <a href="">Space</a>
+      <a href="">Kirk or Picard</a>
+      <a href="">Aurora Borealis</a>
+      <a href="javascript:void(0);" class="icon" onclick="rwdMenuToggle()">&#9776;</a>
+    </ul>
+<!--
+The reason you’d want to do javascript:void(0) with the href of a link is that normally, a
+javascript: URL will redirect the browser to a plain text version of the result
+of evaluating that JavaScript. But if the result is undefined, then the browser
+stays on the same page. void(0) is just the smallest script possible that
+evaluates as undefined.  ( basically its not reloading the page, so our menu disappears )
+ -->
+  </nav>
+  <div id="controller">
+    <h1 id="top">
+      There is no reason not the like this view
+    </h1>
+    <div id="top_centering">
+      <a href=""><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+      <a href="" id="banner_botton" >Try now</a>
+      <span id="banner_botton_text">How about you click this!</span>
+    </div>
+  </div>
+
+</header>
+<main>
+  <section id="left">
+    <article>
+
+      <h1>ONLY ONE CAN CAPTAIN THE SHIP</h1>
+    <h2>Kirk, Picard or Morpheus? Who will claim the chair....</h2>
+    <p>
+      Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.
+<br /><br />
+Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.
+    </p>
+<iframe width="600" height="315" src="https://www.youtube.com/embed/ww6r9-XGZ8Q?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </article>
+
+  </section>
+  <section id="right">
+
+  </section>
+</main>
+</body>
+</html>

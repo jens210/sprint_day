@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,400,500');
+
+
+* {
+  font-family: 'Exo', sans-serif;
+  margin:0;
+  padding:0;
+}
+
+header {
+  background-image: url("../images/top_banner.jpg");
+  background-size: cover;
+  height:815px;
+  position: relative;
+}
+
+#controller {
+  width:500px;
+  margin:0 auto;
+  height:500px;
+  color: #ffffff;
+  text-align: center;
+  padding:330px 0 0 0;
+}
+
+#controller h1 {
+  font-size: 52px;
+  font-weight: 100;
+}
+
+.fa.fa-play-circle {
+  color:#ffffff;
+  font-size: 56px;
+  float:left;
+  clear: both;
+  margin-left:232px;
+  padding: 10px 0;
+}
+
+a#banner_botton {
+  padding:8px 15px;
+  background-color: #009b0d;
+  border-radius: 3px;
+  color:#ffffff;
+  font-size: 14px;
+  font-weight: 100;
+  float:left;
+  clear: both;
+  margin-left:215px;
+  margin-bottom: 10px;
+}
+
+span#banner_botton_text {
+  font-size: 12px;
+  font-weight: 100;
+  float:left;
+  clear: both;
+  margin-left:185px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #151515;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #fff;
+    color: #009b0d;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+section#left {
+  float:left;
+  width:60%;
+
+}
+
+section article {
+  padding:90px 80px;
+}
+
+section h1 {
+  color:#009b0d;
+  font-size: 16px;
+}
+
+section h2 {
+  font-size:40px;
+  padding-bottom: 50px;
+}
+
+section p {
+  font-weight: 100;
+}
+
+section#right {
+  float:right;
+  width:40%;
+  background-color: black;
+  height: 725px;
+  background-image: url("../images/kirk_picard.png");
+}
+iframe {
+  min-width: 100%;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+/* Mobile Phones Portrait + Landscape */
+@media screen and (max-device-width: 480px) and (orientation: portrait),
+       screen and (max-device-width: 740) and (orientation: landscape),
+       screen and (max-width:740px)
+{
+
+  * {
+    font-family: 'Exo', sans-serif;
+    margin:;
+    padding:;
+    color:;
+  }
+  p {
+
+  }
+  body {
+
+  }
+  header{
+    height:470p;
+  }
+
+  .topnav a:not(:first-child) {
+    displa: none;
+  }
+    .topnav a.icon {
+    float: right;
+    display: blok;
+  }
+    .topnav.responsive {
+    position: relativ;
+  }
+    .topnav.responsive a.icon {
+    position: ;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: no;
+    display; block;
+    text-align: ;
+  }
+
+  #controller {
+    width:;
+    margin:center;
+    height:;
+    padding:170px 0 0 0.
+  }
+
+  .fa.fa-play-circle {
+    color:#ffffff;
+    font-size: 56x;
+    float:left;
+    clear: both;
+    margin: 0 auto;
+    width:100%;
+    padding: 10px 0;
+  }
+
+  a#banner_botton {
+    padding:;
+    background-color: ;
+    border-radius: ;
+    color:#ffffff;
+    font-size: ;
+    font-weight: 100;
+    float:left;
+    clear: both;
+    margin: 0 auto 7px;
+    width:170px;
+  }
+
+  #top_centering [
+    margin: 0 auto:
+    width:200px;
+  ]
+
+  span#banner_botton_text {
+    font-size: ;
+    font-weight: 100;
+    float:left;
+    clear: both;
+    margin: center;
+    width: ;
+  }
+
+  #controller h1 {
+    font-size: 36px;
+    font-weight: 100;
+    width:100%;
+    margin: center;
+  }
+
+  section article {
+
+  }
+  section#left {
+
+  }
+  section#right {
+
+    background-size: cover;
+
+
+  }
+  iframe {
+    min-width: ;
+    max-width: ;
+    margin-top: 10px;
+  }
+}
