@@ -125,7 +125,7 @@ iframe {
 
 /* Mobile Phones Portrait + Landscape */
 @media screen and (max-device-width: 480px) and (orientation: portrait),
-       screen and (max-device-width: 740) and (orientation: landscape),
+       screen and (max-device-width: 740px) and (orientation: landscape),
        screen and (max-width:740px)
 {
 
@@ -196,7 +196,7 @@ iframe {
     color:#ffffff;
     font-size: ;
     font-weight: 100;
-    float:left;
+    float: left;
     clear: both;
     margin: 0 auto 7px;
     width: 170px;
